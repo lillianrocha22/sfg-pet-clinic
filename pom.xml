@@ -29,5 +29,24 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
+    <scm>
+        <url>https://github.com/lillianrocha22/sfg-pet-clinic.git</url>
+        <connection>scm:git:https://github.com/lillianrocha22/sfg-pet-clinic.git</connection>
+        <developerConnection>scm:git:https://github.com/lillianrocha22/sfg-pet-clinic.git</developerConnection>
+        <tag>@0.0.1-SNAPSHOT</tag>
+    </scm>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>3.0.1</version>
+                <configuration>
+                    <goal>install</goal>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
