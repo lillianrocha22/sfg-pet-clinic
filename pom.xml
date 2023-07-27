@@ -29,10 +29,7 @@
         </dependency>
     </dependencies>
     <scm>
-        <url>https://github.com/lillianrocha22/sfg-pet-clinic.git</url>
-        <connection>scm:git:https://github.com/lillianrocha22/sfg-pet-clinic.git</connection>
         <developerConnection>scm:git:https://github.com/lillianrocha22/sfg-pet-clinic.git</developerConnection>
-        <tag>@0.0.1-SNAPSHOT</tag>
     </scm>
 
     <build>
@@ -43,6 +40,7 @@
                 <version>3.0.1</version>
                 <configuration>
                     <goal>install</goal>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
