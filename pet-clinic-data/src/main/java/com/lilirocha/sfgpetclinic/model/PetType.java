@@ -1,4 +1,4 @@
-package com.lilirocha.model;
+package com.lilirocha.sfgpetclinic.model;
 
 public class PetType {
     private String Name;

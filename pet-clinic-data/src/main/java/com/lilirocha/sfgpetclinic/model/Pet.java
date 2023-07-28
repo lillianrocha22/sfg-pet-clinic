@@ -1,10 +1,10 @@
-package com.lilirocha.model;
+package com.lilirocha.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
 public class Pet {
     private PetType petType;
-    private com.lilirocha.model.Owner owner;
+    private Owner owner;
     private LocalDate birthDate;
 
     public PetType getPetType() {
@@ -15,11 +15,11 @@ public class Pet {
         this.petType = petType;
     }
 
-    public com.lilirocha.model.Owner getOwner() {
+    public Owner getOwner() {
         return owner;
     }
 
-    public void setOwner(com.lilirocha.model.Owner owner) {
+    public void setOwner(Owner owner) {
         this.owner = owner;
     }
 
