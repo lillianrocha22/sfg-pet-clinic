@@ -14,7 +14,7 @@
     </parent>
     <groupId>com.lilirocha</groupId>
     <artifactId>sfg-pet-clinic</artifactId>
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>sfg-pet-clinic</name>
     <description>sfg-pet-clinic</description>
     <properties>
@@ -39,7 +39,7 @@
             <uniqueVersion>false</uniqueVersion>
             <id>corp1</id>
             <name>Corporate Repository</name>
-            <url>git:https://github.com/lillianrocha22/sfg-pet-clinic.git</url>
+            <url>scm:git:git@github.com:lillianrocha22/sfg-pet-clinic.git</url>
             <layout>default</layout>
         </repository>
     </distributionManagement>
